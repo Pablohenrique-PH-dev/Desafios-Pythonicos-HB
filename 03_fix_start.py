@@ -27,6 +27,33 @@ def fix_start(nome):            DEFINIÇÃO DA FUNÇÃO COM O PARÂMETRO NOME
 print(fix_start(nome = 'selissa'))                   CHAMO A FUNÇÃO COM O ARGUMENTO NOME
 
 #nome.replace(nome[0], '*')  nome[1:].replace(nome[0], '*')
+
+#####  Explicação que dei para o Douglas resolver
+
+s = 'babble'
+print(s)
+
+#print(s[1:])
+p = s
+
+p = p.replace(p[0], '*')
+print(p)
+
+p = p[1:]
+print(p)
+
+s = s[0] + p
+print(s)
+
+#print(s[0] + s[1:].replace(s[0], '*'))
+
+p = s
+p = p.replace(p[0], '*')
+p = p[1:]
+s = s[0] + p
+print(s)
+
+
 """
 
 
